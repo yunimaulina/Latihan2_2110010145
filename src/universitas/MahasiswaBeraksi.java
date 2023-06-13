@@ -1,13 +1,18 @@
-
 package universitas;
 
+
 public class MahasiswaBeraksi {
-     public static void main(String[] args) {
-    //membuat objek
-    Mahasiswa yuni = new Mahasiswa;
+    public static void main(String[] args){
+            
+    Mahasiswa mhs = new Mahasiswa("2110010145", "Yuni Maulina", " Teknik Informatika");
     
-    System.out.println("Hasil penjuml : "+yuni.setPenjumlahan());
-    System.out.println("Hasil pengurangan : "+yuni.setPengurangan());
-    System.out.println("Hasil perkalian   : "+yuni.setPerkalian());
-    } 
+    
+        System.out.println("Nama    : "+mhs.getNama());
+        System.out.println("NPM     : "+mhs.getNpm());
+        System.out.println("Prodi   : "+mhs.getProdi());
+        
+        System.out.println(mhs.setDetail());
+
+    
+}
 }
